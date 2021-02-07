@@ -3,11 +3,11 @@
       "title": "string",
       "views": "int",
       "published": "boolean",
-      "createdAt": "date"
-    },"User": {
-        "username": "string",
-        "password": "string",
-        "enabled": "boolean",
-        "createdAt": "date"
-      }
-}
+      "createdAt": "date",
+      "comments": "Comment[]"
+    },
+    "Comment": {
+      "body": "string",
+      "post": "Post"
+    }
+  }
