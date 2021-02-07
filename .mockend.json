@@ -4,5 +4,10 @@
       "views": "int",
       "published": "boolean",
       "createdAt": "date"
-    }
+    },"User": {
+        "username": "string",
+        "password": "string",
+        "enabled": "boolean",
+        "createdAt": "date"
+      }
 }
